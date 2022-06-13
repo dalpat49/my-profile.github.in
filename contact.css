@@ -1,0 +1,47 @@
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    width: 100%;
+  height: 31rem;
+}
+.contact-btn{
+    background-color:blueviolet;
+    width: 22rem;
+    height: 7rem;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    border-radius:2rem ;
+    -webkit-border-radius:2rem ;
+    -moz-border-radius:2rem ;
+    -ms-border-radius:2rem ;
+    -o-border-radius:2rem ;
+}
+.contact-btn:hover{
+    background-color: rgba(137, 43, 226, 0.61);
+    color: black;
+}
+
+@media only  screen and (max-width:700px)  {
+.contact-btn{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+}
+
+
+@media only  screen and (max-width:1100px) and (min-width:700px)  {
+    
+.progresss{
+    font-size: 1rem;
+}
+}
